@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Sign In_files/signin.css">
+  <link href="./Sign In_files/ionicons.min.css" rel="stylesheet">
+  <title>Sign In</title>
+</head>
+
+<body background="images/others/anantha-krishnan-87N0Pq3hgSE-unsplash.jpg">
+  <div class="container-fluid">
+  
+      
+        <form id="my-form" class="form-container" onsubmit="return validateFn()">
+            <h2>Sign In</h2>
+<!-- "Email"-->            
+            <div class="form-check">
+              <i class="icon ion-ios-mail"></i>
+              <input id="email" placeholder="Email" type="email">
+              <small> </small> 
+            </div>
+<!-- "Password" -->
+ 
+            <div class="form-check">            
+                <i class="icon ion-ios-key"></i>
+                <input id="pass" class="myInput" type="Password" placeholder="Password">
+                <span class="eye" onclick="myfn()">
+                  <i id="hide1" class="icon ion-ios-eye-off"></i>
+                  <i id="hide2" class="icon ion-ios-eye"></i>
+                </span>
+                <small> </small>
+              </div> <br><br>
+<!-- Check box & forgot pass-->
+            
+              <input type="checkbox" checked="checked" name="remember"> Remember me
+              <span class="forgotpsw">Forgot <a href="https://sandeepchandramohan.github.io/Assignment/contents/pages/sign%20in/signin.html#">password?</a></span> <br><br><br><br>
+              <span class="creatacc">new account <a href="Sign Up.html" style="font-size: 18px; font-weight: 500; font-style: italic;">Sign up </a></span>
+            
+<!--  Button  -->
+          
+              <br><br><br>       
+          <button type="submit" class="bttn"><span class="sub">Submit</span></button>
+
+        </form>
+      
+  </div>   
+
+<script src="./Sign In_files/signin.js.download"></script>
+<script src="./Sign In_files/popper.min.js.download" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="./Sign In_files/bootstrap.min.js.download" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+        
+
+</body></html>
